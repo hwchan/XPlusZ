@@ -3,7 +3,6 @@
 }
 .carousel {
 	position: relative;
-	padding-top: 50px;
 }
 .left-box-shadow {
 	background-color:white;
@@ -16,4 +15,10 @@ body {
 .navbar-inverse {
   background-color: #222222;
   border-color: #080808;
+}
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 0px;
+  border: 1px solid transparent;
 }
