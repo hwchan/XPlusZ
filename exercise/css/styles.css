@@ -1,0 +1,19 @@
+.carousel-inner > .item > img { 
+	margin: 0 auto; 
+}
+.carousel {
+	position: relative;
+	padding-top: 50px;
+}
+.left-box-shadow {
+	background-color:white;
+	box-shadow: 0px 10px 5px -5px #888888;
+	margin: 8px;
+}
+body {
+	background-color:#d8d8d8
+}
+.navbar-inverse {
+  background-color: #222222;
+  border-color: #080808;
+}
