@@ -8,6 +8,7 @@
 	background-color:white;
 	box-shadow: 0px 10px 5px -5px #888888;
 	margin: 8px;
+	padding: 15px;
 }
 .right-header-box {
 	background-color:#f0eeef;
@@ -17,12 +18,33 @@ body {
 	background-color:#d8d8d8
 }
 .navbar-inverse {
-  background-color: #222222;
-  border-color: #080808;
+	background-color: #222222;
+	border-color: #080808;
 }
 .navbar {
-  position: relative;
-  min-height: 50px;
-  margin-bottom: 0px;
-  border: 1px solid transparent;
+	position: relative;
+	min-height: 50px;
+	margin-bottom: 0px;
+	border: 1px solid transparent;
+}
+.green-footer {
+	background-color: #066b4d;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 38px;
+	padding-right: 38px;
+}
+h4.footer {
+	text-align: center;
+	color: #b5f9e4;
+}
+a:link {
+	color: white; 
+}
+a:visited {
+	color: white;
+}
+a:hover {
+	color: #b5f9e4;
+	text-decoration: none;
 }
