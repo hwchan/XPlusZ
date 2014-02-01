@@ -140,18 +140,15 @@
 								</div>
 								<div class="row">
 									<div class="col-md-6 form-group">
-										<select class="form-control">
-											<option>City</option>
-											<option>Burnaby</option>
-											<option>Richmond</option>
-											<option>Vancouver</option>
+										<select class="form-control" name="city" id="city">
+											<option value="">City</option>
 										</select>
 									</div>
 									<div class="col-md-6 form-group">
-										<select class="form-control">
-											<option>Country</option>
-											<option>Canada</option>
-											<option>United States</option>
+										<select class="form-control" name="country" id="country" onchange="setCities();">
+											<option value="">Country</option>
+											<option value="Canada">Canada</option>
+											<option value="United States">United States</option>
 										</select>
 									</div>
 								</div>
@@ -373,6 +370,8 @@
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+	<!-- Include custom JavaScript -->
+	<script src="js/custom.js"></script>
 	</div>
   </body>
 </html>
