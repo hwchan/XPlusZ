@@ -1,7 +1,19 @@
+@font-face {
+	font-family: 'Eurostile';
+	src: url('../fonts/eurostile-webfont.eot');
+	src: url('../fonts/eurostile-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/eurostile-webfont.woff') format('woff'), url('../fonts/eurostile-webfont.ttf') format('truetype'), url('../fonts/eurostile-webfont.svg#eurostile-webfont') format('svg');
+}
+@font-face {
+	font-family: 'Eurostile';
+	src: url('../fonts/eurostile-bold-webfont.eot');
+	src: url('../fonts/eurostile-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/eurostile-bold-webfont.woff') format('woff'), url('../fonts/eurostile-bold-webfont.ttf') format('truetype'), url('../fonts/eurostile-bold-webfont.svg#eurostile-boldwebfont') format('svg');
+	font-weight: bold;
+ }
 .body-shadow {
 	box-shadow: 0px 0px 5px 1px #444444;
 	margin: 20px;
-	background-color:#d8d8d8
+	background-color:#d8d8d8;
+	font-family: "Eurostile";
 }
 .container{
 	width: auto;
@@ -29,12 +41,13 @@
   background-color: transparent;
   text-decoration: underline;
 }
-.navbar-divider{
+.navbar-tabs{
     position:static !important;
     left:50%;
     top:10%;
     bottom:10%;
-    border-left:1px solid white;
+	border-right:1px solid white;
+	font-weight: bold;
 }
 .carousel-inner > .item > img { 
 	margin: 0 auto; 
@@ -66,10 +79,6 @@
 	padding-right: 38px;
 	color: #a4a2a3;
 }
-h4.footer {
-	text-align: center;
-	color: #b5f9e4;
-}
 a:link {
 	color: white; 
 }
@@ -81,21 +90,37 @@ a:hover {
 	text-decoration: none;
 }
 .btn-primary {
-  color: #ffffff;
-  background-color: #01ac78;
-  border-color: transparent;
+	color: #ffffff;
+	background-color: #01ac78;
+	border-color: transparent;
 }
-
+.glyphicon {
+	vertical-align: middle;
+}
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  color: #ffffff;
-  background-color: #01996b;
-  border-color: transparent;
+	color: #ffffff;
+	background-color: #01996b;
+	border-color: transparent;
 }
-
+.btn-default {
+	color: #444444;
+	background-color: #b5fde7;
+	border-color: transparent;
+	margin-bottom: 3px;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+	color: #444444;
+	background-color: #96d2bf;
+	border-color: transparent;
+}
 .btn-caret {
 	color: #ffffff;
 	background-color: #01ac78;
@@ -105,4 +130,44 @@ a:hover {
 .pull-middle {
 	vertical-align: middle;
 	margin: auto;
+}
+.modal-open, .modal-open .navbar-fixed-top {
+  margin-right: 0 !important;
+}
+.modal-header {
+  min-height: 16.428571429px;
+  padding: 5px;
+  background-color: #01ac78;
+  color: white;
+}
+h1.footer,
+h2.footer,
+h3.footer,
+h4.footer {
+	text-align: center;
+	color: #b5f9e4;
+	font-weight: bold;
+}
+h1,
+h2,
+h3 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Eurostile";
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
 }

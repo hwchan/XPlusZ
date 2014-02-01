@@ -27,20 +27,20 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			  </button>
-			  <a class="navbar-brand" href="#">Company Name</a>
+			  <a class="navbar-brand navbar-tabs" href="#">Company Name</a>
 			</div>
 			<div class="collapse navbar-collapse">
 			  <ul class="nav navbar-nav">
-				<li class="active"><a href="#" class="navbar-divider">PRODUCTS</a></li>
-				<li><a href="#" class="navbar-divider">NEWS</a></li>
-				<li><a href="#" class="navbar-divider">COMMUNITY</a></li>
-				<li><a href="#" class="navbar-divider">SERVICES</a></li>
-				<li><a href="#" class="navbar-divider">PARTNERS</a></li>
-				<li><a href="#" class="navbar-divider">DOWNLOAD</a></li>
-				<li><a href="#" class="navbar-divider">1</a></li>
-				<li><a href="#" class="navbar-divider">2</a></li>
-				<li><a href="#" class="navbar-divider">3</a></li>
-				<li><a href="#" class="navbar-divider">4</a></li>
+				<li class="active"><a href="#" class="navbar-tabs">PRODUCTS</a></li>
+				<li><a href="#" class="navbar-tabs">NEWS</a></li>
+				<li><a href="#" class="navbar-tabs">COMMUNITY</a></li>
+				<li><a href="#" class="navbar-tabs">SERVICES</a></li>
+				<li><a href="#" class="navbar-tabs">PARTNERS</a></li>
+				<li><a href="#" class="navbar-tabs">DOWNLOAD</a></li>
+				<li><a href="#" class="navbar-tabs"><span class="glyphicon glyphicon-ok-sign"></span></a></li>
+				<li><a href="#" class="navbar-tabs"><span class="glyphicon glyphicon-question-sign"></span></a></li>
+				<li><a href="#" class="navbar-tabs"><span class="glyphicon glyphicon-info-sign"></span></a></li>
+				<li><a href="#" class="navbar-tabs"><span class="glyphicon glyphicon-plus-sign"></span></a></li>
 			  </ul>
 			</div><!--/.nav-collapse -->
 		  </div>
@@ -148,7 +148,11 @@
 							<div class="form-group">
 								<input type="name" class="form-control" id="inputDisplay" placeholder="Display Name">
 							</div>
-							<button type="submit" class="btn btn-primary pull-right">SUBMIT ></button>
+							<div class="form-group">
+								<div class="container">
+									<button type="submit" class="btn btn-primary pull-right">SUBMIT ></button>
+								</div>
+							</div>
 						</form>
 					</div>
 				</div>
@@ -158,7 +162,7 @@
 					<div class="row">
 						<div class="col-md-6">
 							<p>
-								<button type="button" class="btn btn-caret btn-xs">
+								<button type="button" class="btn btn-caret btn-xs" data-toggle="modal" data-target="#myModal">
 									<span class="glyphicon glyphicon-chevron-down pull-middle"></span>
 								</button>
 								Lorem ipsum dolor sit
@@ -243,7 +247,7 @@
 		<div class="container green-footer">
 			<div class="row">
 				<div class="col-md-3">
-					<h4 class="footer">PAGES</h4>
+					<h3 class="footer">PAGES</h3>
 					<div class="row">
 						<div class="col-md-8">
 							<a href="#">HOME</a>
@@ -258,22 +262,25 @@
 						</div>
 						<div class="col-md-4">
 							<button type="button" class="btn btn-default btn-sm">
-								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-plus"></span>
 							</button>
+							<br>
 							<button type="button" class="btn btn-default btn-sm">
-								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-minus"></span>
 							</button>
+							<br>
 							<button type="button" class="btn btn-default btn-sm">
-								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-ok"></span>
 							</button>
+							<br>
 							<button type="button" class="btn btn-default btn-sm">
-								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-remove"></span>
 							</button>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-6">
-					<h4 class="footer">TWITTER</h4>
+					<h3 class="footer">TWITTER</h3>
 					<p>
 						<a href="#">Company @Company</a>
 						<br>Lorem ipsum dolor sit, lorem ipsum dolor
@@ -285,7 +292,7 @@
 					</p>
 				</div>
 				<div class="col-md-3">
-					<h4 class="footer">NEWSLETTER</h4>
+					<h3 class="footer">NEWSLETTER</h3>
 					<form role="form">
 						<div class="form-group">
 							<input type="email" class="form-control" id="iputNewsletter" placeholder="Enter your email address...">
@@ -308,6 +315,21 @@
         <p>COPYRIGHT &copy 2001-2013, COMPANY NAME INC.. ALL RIGHTS RESERVED. <a href="#" style="color:#333333">TERMS OF USE</a> | <a href="#" style="color:#333333">PRIVACY POLICY</a></p>
       </div>
     </div>
+	
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close pull-left" style="padding-top:2px; padding-right:15px;" data-dismiss="modal" aria-hidden="true">&times;</button>
+					Lorem ipsum dolor sit
+				</div>
+				<div class="modal-body">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+			</div>
+		</div>
+	</div>
 	
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery.js"></script>
