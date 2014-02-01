@@ -328,13 +328,13 @@
 				</div>
 				<div class="col-md-3">
 					<h3 class="footer">NEWSLETTER</h3>
-					<form role="form">
+					<form role="form" method="post" onsubmit="return validateNewsletter();">
 						<div class="form-group">
-							<input type="email" class="form-control" id="iputNewsletter" placeholder="Enter your email address...">
+							<input type="email" class="form-control" id="inputNewsletter" placeholder="Enter your email address...">
 						</div>
 						<div class="checkbox">
 							<label>
-								<input type="checkbox"> I agree to the <a href="#" style="color:orange; text-decoration:underline;">Privacy Notice.</a>
+								<input type="checkbox" id="privacyNotice"> I agree to the <a href="#" style="color:orange; text-decoration:underline;">Privacy Notice.</a>
 							</label>
 						</div>
 						<button type="submit" class="btn btn-primary pull-right">SIGN UP ></button>

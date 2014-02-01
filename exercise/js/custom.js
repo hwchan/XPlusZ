@@ -64,3 +64,13 @@ function validateForm() {
 	
 	return true;
 }
+
+function validateNewsletter() {
+	var checkedValue = document.getElementById('privacyNotice').checked;
+	var email = document.getElementById('inputNewsletter').value;
+	if(!checkedValue || email == null || email == ""){
+		alert("Please enter a valid email and accept the privacy notice to sign up.");
+		return false;
+	}
+	return true;
+}
