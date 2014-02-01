@@ -13,17 +13,18 @@
 	box-shadow: 0px 0px 5px 1px #444444;
 	margin: 20px;
 	background-color:#d8d8d8;
-	font-family: "Eurostile";
+	/* font-family: "Eurostile"; */
 }
 .container{
 	width: auto;
 }
-.navbar-inverse {
+.navbar {
 	background-color: #01ac78;
 	box-shadow: 0px 2px 5px 0px #444444;
-}
-.navbar-inverse .navbar-brand {
-	color: white;
+	border: 0px;
+	position: relative;
+	min-height: 50px;
+	margin-bottom: 0px;
 }
 .navbar-inverse .navbar-nav > li > a {
 	color: white;
@@ -42,12 +43,12 @@
   text-decoration: underline;
 }
 .navbar-tabs{
-    position:static !important;
-    left:50%;
-    top:10%;
-    bottom:10%;
-	border-right:1px solid white;
+    position: static !important;
+	padding: 9px 43px;
+	border-right: 1px solid white;
 	font-weight: bold;
+	font-family: "Eurostile";
+	font-size: 15px;
 }
 .carousel-inner > .item > img { 
 	margin: 0 auto; 
@@ -68,12 +69,6 @@
 }
 .right-heading-box-body {
 	margin: 52px 0px;
-}
-.navbar {
-	position: relative;
-	min-height: 50px;
-	margin-bottom: 0px;
-	border: 1px solid transparent;
 }
 .green-footer {
 	background-color: #066b4d;
