@@ -1,6 +1,7 @@
 // Adapted from:
 // http://www.csgnetwork.com/directcountrystatecitydrop.html
 var cities = new Array();
+cities['Country'] = new Array('City');
 cities['Canada'] = new Array('Vancouver', 'Burnaby', 'Richmond', 'Calgary', 'Toronto', 'Quebec');
 cities['United States'] = new Array('Seattle', 'Washington', 'New York', 'Minneapolis', 'Las Vegas');
 
