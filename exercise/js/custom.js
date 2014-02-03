@@ -26,6 +26,12 @@ function validateForm() {
 		alert("Please enter your name.");
 		return false;
 	}
+	// Email
+	var email = document.getElementById('inputEmail').value;
+	if(email == "" || email == null){
+		alert("Please enter your email.");
+		return false;
+	}
 	
 	// Phone
 	var phone = document.getElementById('inputPhone').value;

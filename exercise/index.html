@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>XPlusZ Exercise</title>
+    <title>Company Name</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Company Name is the leading company in doing company things.">
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
 	<!-- Custom -->
@@ -39,13 +40,14 @@
 				<li><a href="#" class="navbar-tabs">DOWNLOAD</a></li>
 				<li><a href="#" class="navbar-tabs"><img src="img/search.png" alt="Company Name search" width="20" height="20"></a></li>
 				<li><a href="#" class="navbar-tabs"><img src="img/talk.png" alt="Company Name talk" width="20" height="20"></a></li>
-				<li><a href="#" class="navbar-tabs"><img src="img/facebook.png" alt="Company Name facebook" width="20" height="20"></a></li>
+				<li><a href="#" class="navbar-tabs"><img src="img/facebook.png" alt="Company Name Facebook" width="20" height="20"></a></li>
 				<li><a href="#" class="navbar-tabs"><img src="img/twitter.png" alt="Company Name Twitter" width="20" height="20"></a></li>
 			  </ul>
 			</div><!--/.nav-collapse -->
 		  </div>
 		</div>
 		
+		<!-- Carousel -->
 		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 		  <!-- Indicators -->
 		  <ol class="carousel-indicators">
@@ -59,27 +61,27 @@
 		  <!-- Wrapper for slides -->
 		  <div class="carousel-inner">
 			<div class="item active">
-			  <img src="http://placekitten.com/1311/410" alt="...">
+			  <img src="http://placekitten.com/1311/410" alt="Company Name mascot revealed">
 			  <div class="carousel-caption">
 			  </div>
 			</div>
 			<div class="item">
-			  <img src="http://placekitten.com/1311/410" alt="...">
+			  <img src="http://placekitten.com/1311/410" alt="Company Name is the leading company in everything company or kitten related">
 			  <div class="carousel-caption">
 			  </div>
 			</div>
 			<div class="item">
-			  <img src="http://placekitten.com/1311/410" alt="...">
+			  <img src="http://placekitten.com/1311/410" alt="Company Name is a proud sponsor of PETA">
 			  <div class="carousel-caption">
 			  </div>
 			</div>
 			<div class="item">
-			  <img src="http://placekitten.com/1311/410" alt="...">
+			  <img src="http://placekitten.com/1311/410" alt="Company Name's annual Kitten Drive this Thursday">
 			  <div class="carousel-caption">
 			  </div>
 			</div>
 			<div class="item">
-			  <img src="http://placekitten.com/1311/410" alt="...">
+			  <img src="http://placekitten.com/1311/410" alt="Company Name: Eat Fresh">
 			  <div class="carousel-caption">
 			  </div>
 			</div>
@@ -98,6 +100,7 @@
 		<div class="container" style="padding:25px;">
 			<div class="row">
 				<div class="col-md-4">
+					<!-- Categories box -->
 					<div class="col-md-12 left-box-shadow">
 						<div class="container">
 							<h4><b>CATEGORIES</b></h4>
@@ -114,6 +117,7 @@
 						
 						</div>
 					</div>
+					<!-- Form box -->
 					<div class="col-md-12 left-box-shadow">
 						<div class="container">
 							<h4>FORM</h4>
@@ -164,6 +168,7 @@
 						</div>
 					</div>
 				</div>
+				<!-- Right box with the heading and list -->
 				<div class="col-md-7 right-heading-box">
 					<h2><b>HEADING</b></h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -233,10 +238,11 @@
 	<div>
 		<div class="container green-footer">
 			<div class="row">
-				<div class="col-md-3">
+				<!-- Left -->
+				<div class="col-md-2">
 					<h3 class="footer">PAGES</h3>
-					<div class="row">
-						<div class="col-md-8">
+					<table><tr>
+						<td>
 							<a href="#">HOME</a>
 							<br><a href="#">PRODUCTS</a>
 							<br><a href="#">NEWS</a>
@@ -246,8 +252,8 @@
 							<br><a href="#">COMPANY</a>
 							<br><a href="#">DOWNLOAD</a>
 							<br><a href="#">CAREERS</a>
-						</div>
-						<div class="col-md-4">
+						</td>
+						<td style="vertical-align:top; padding-top:10px; padding-left:100px;">
 							<button type="button" class="btn btn-default btn-sm">
 								<img src="img/facebook-inverse.png" width="18" height="18">
 							</button>
@@ -263,10 +269,11 @@
 							<button type="button" class="btn btn-default btn-sm">
 								<img src="img/youtube-inverse.png" width="18" height="18">
 							</button>
-						</div>
-					</div>
+						</td>
+					</tr></table>
 				</div>
-				<div class="col-md-6">
+				<!-- Middle -->
+				<div class="col-md-6 col-md-offset-1">
 					<h3 class="footer">TWITTER</h3>
 					<p>
 						<a href="#">Company @Company</a>
@@ -278,6 +285,7 @@
 						<br>Lorem ipsum dolor sit, lorem ipsum dolor.
 					</p>
 				</div>
+				<!-- Right -->
 				<div class="col-md-3">
 					<h3 class="footer">NEWSLETTER</h3>
 					<form role="form" method="post" onsubmit="return validateNewsletter();">
