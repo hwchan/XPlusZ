@@ -68,7 +68,7 @@
 	padding: 32px;
 }
 .right-heading-box-body {
-	margin: 52px 0px;
+	margin: 38px 0px;
 }
 .green-footer {
 	background-color: #066b4d;
@@ -92,9 +92,6 @@ a:hover {
 	color: #ffffff;
 	background-color: #01ac78;
 	border-color: transparent;
-}
-.glyphicon {
-	vertical-align: middle;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -185,24 +182,27 @@ hr {
 	margin-top: 0px;
 	margin-bottom: 12px;
 }
-ul {
+ul.categories{
 	padding-left: 12px;
+	list-style-image: url('../img/chevron-right.png');
 }
-li {
+ul.right-box-list {
 	list-style-type: none;
+	padding-left: 20px;
 }
-ol > li {
-	margin-bottom: 15px;
+ul.right-box-list > li:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+ul.right-box-list > li {
+	background-image: url('../img/chevron-down.png');
+	background-repeat: no-repeat;
+	margin-bottom: 11px;
+	background-position: 0 5px;
+	padding: 6px 0px 4px 35px;
 }
 .categories {
 	font-size: 17px;
 	color: #888888;
+	font-family: "Eurostile";
 }
-.categories:before {
-	content: '\e080';
-	font-family: Glyphicons Halflings;
-	display: inline-block;
-	margin-left: -1.2em; /*same as padding-left set on li*/
-	width: 1.2em; /*same as padding-left set on li*/
-	color: #00b177;
-}​
