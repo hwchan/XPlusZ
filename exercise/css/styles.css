@@ -126,6 +126,9 @@ a:hover {
 	border-color: transparent;
 	border-radius: 0px;
 }
+.btn-sm {
+	padding: 6px;
+}
 .pull-middle {
 	vertical-align: middle;
 	margin: auto;
